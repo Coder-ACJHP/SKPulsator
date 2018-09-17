@@ -1,10 +1,10 @@
 # SKPulsator
 <div>
-  <h2>Pulse animation for SKSpriteNode as extension</h2>
+  <h2>Circle pulse animation for SKSpriteNode as extension</h2>
   <br>
   <img src="https://github.com/Coder-ACJHP/SKPulsator/blob/master/Pulsator.gif" width=300 height=500>
   <br>
-  <h2>how to use?</h2>
+  <h2>How to use?</h2>
 </div>
 <ul>
   <li>Add <b>SKPulsator.swift</b> file to your project</li>
@@ -39,4 +39,4 @@ class GameScene: SKScene {
 </code>
 </pre>
 
-<p><b>License :</b>GNU GENERAL PUBLIC LICENSE V3</p>
+<p><b>License :</b> GNU GENERAL PUBLIC LICENSE V3</p>
