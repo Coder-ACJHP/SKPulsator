@@ -39,4 +39,4 @@ class GameScene: SKScene {
 </code>
 </pre>
 
-<h2>License : GNU GENERAL PUBLIC LICENSE V3</h2>
+<p><b>License :</b>GNU GENERAL PUBLIC LICENSE V3</p>
