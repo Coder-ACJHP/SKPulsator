@@ -23,7 +23,11 @@ extension SKSpriteNode {
         self.addChild(circle)
         let scale = SKAction.scale(to: 3.0, duration: 1.0)
         let fadeOut = SKAction.fadeOut(withDuration: 1.0)
-        let pulseGroup = SKAction.sequence([scale, fadeOut])
+        let clear = SKAction.run {
+            circle.removeAllActions()
+            circle.removeFromParent()
+        }
+        let pulseGroup = SKAction.sequence([scale, fadeOut, clear])
         let repeatSequence = SKAction.repeatForever(pulseGroup)
         circle.run(repeatSequence)
         
